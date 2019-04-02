@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="startScreen">
+        <div class="popBox">
+            <h3>Godzilla Trivia!</h3>
+            <img src="https://media.giphy.com/media/l0DEJ9G7VhWH10i8o/giphy.gif">
+            <hr>
+            <p>You have 100 seconds to guess 10 questions.</p>
+            <br>
+            <p>Click to Start</p>
+            <button type="button" id="startBtn" class="btn-primary">GOJIRAAAAA!!!!</button>       
+        </div>
+    </div>
+    
+    <div id="answers">
+        <div class="popBox2">
+            <h3>The results are in!</h3>
+            <hr>
+            <p id="correctAnswers">Correct: </p>
+            <p id="wrongAnswers">Wrong: </p>
+        </div>
+    </div>
+
+    <div id="timeUp">
+        <div class="popBox3">
+            <h3 class="up">Times up!</h3>
+            <hr>
+            <p>Your score:</p>
+            <p id="correctTimeUp">Correct:</p>
+            <p id="wrongTimeUp">Wrong: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Godzilla Trivia!</h3>
+        <div class="row timeLeft">Time Remaining:
+            <div id="time-remain">100</div>
+        </div>
+        <div class="questions">
+            <button type="button" class="btn-primary" id="submit">Submit</button>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
